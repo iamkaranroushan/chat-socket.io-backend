@@ -43,7 +43,7 @@ const server = createServer(app);
 // Create a Socket.IO server instance and mount it on the HTTP server
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://chat-socket-io-frontend-g6wj-beryl.vercel.app/",
     credentials: true,
   },
 });
